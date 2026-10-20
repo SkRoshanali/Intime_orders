@@ -1,0 +1,118 @@
+{
+  "version": "fa6d2dbe13881bf4",
+  "items": [
+    {
+      "id": "item-001",
+      "name": "Corn Floor",
+      "brand": "Amul",
+      "category": "Spices",
+      "unit": "1kg",
+      "price": 60,
+      "step": 1,
+      "image_url": "/product-images/item-001.png"
+    },
+    {
+      "id": "item-002",
+      "name": "Garlic",
+      "brand": "Fresh",
+      "category": "Vegetables",
+      "unit": "1kg",
+      "price": 120,
+      "step": 0.5,
+      "image_url": "/product-images/item-002.png"
+    },
+    {
+      "id": "item-003",
+      "name": "Garam Masala",
+      "brand": "MDH",
+      "category": "Spices",
+      "unit": "100g",
+      "price": 85,
+      "step": 1,
+      "image_url": "/product-images/item-003.png"
+    },
+    {
+      "id": "item-004",
+      "name": "Salt",
+      "brand": "TATA",
+      "category": "Spices",
+      "unit": "1kg",
+      "price": 25,
+      "step": 1,
+      "image_url": "/product-images/item-004.png"
+    },
+    {
+      "id": "item-005",
+      "name": "Vinegar",
+      "brand": "Tops",
+      "category": "Condiments",
+      "unit": "500ml",
+      "price": 35,
+      "step": 1,
+      "image_url": "/product-images/item-005.png"
+    },
+    {
+      "id": "item-006",
+      "name": "Ketchup",
+      "brand": "Kissan",
+      "category": "Condiments",
+      "unit": "1kg",
+      "price": 110,
+      "step": 1
+    },
+    {
+      "id": "item-007",
+      "name": "Bay Leaf",
+      "brand": "Catch",
+      "category": "Spices",
+      "unit": "10g",
+      "price": 25,
+      "step": 1
+    },
+    {
+      "id": "item-008",
+      "name": "Cumin Seeds",
+      "brand": "Everest",
+      "category": "Spices",
+      "unit": "100g",
+      "price": 90,
+      "step": 1
+    },
+    {
+      "id": "item-009",
+      "name": "Turmeric Powder",
+      "brand": "MDH",
+      "category": "Spices",
+      "unit": "200g",
+      "price": 75,
+      "step": 1
+    },
+    {
+      "id": "item-010",
+      "name": "Basmati Rice",
+      "brand": "India Gate",
+      "category": "Grains",
+      "unit": "5kg",
+      "price": 450,
+      "step": 1
+    },
+    {
+      "id": "item-011",
+      "name": "Cooking Oil",
+      "brand": "Fortune",
+      "category": "Oil",
+      "unit": "1L",
+      "price": 180,
+      "step": 1
+    },
+    {
+      "id": "item-012",
+      "name": "Onions",
+      "brand": "Fresh",
+      "category": "Vegetables",
+      "unit": "1kg",
+      "price": 40,
+      "step": 0.5
+    }
+  ]
+}
