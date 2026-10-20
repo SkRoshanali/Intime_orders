@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import { ShoppingCart } from 'lucide-react';
 import type { CartState } from '@/store/cart';
 import { useCartStore } from '@/store/cart';
@@ -17,7 +18,7 @@ export function CartBar(): React.ReactNode {
   // Calculate total using integer-safe math
   const itemsData = Object.entries(cartItems)
     .map(([itemId, quantity]) => {
-      const item = catalog?.items.find((i) => i.id === itemId);
+      const item = catalog?.items.find((i: { id: string }) => i.id === itemId);
       return item ? { price: item.price, quantity } : null;
     })
     .filter((item): item is { price: number; quantity: number } => item !== null);

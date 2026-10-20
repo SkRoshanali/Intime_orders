@@ -3,5 +3,10 @@ command = "npm run build"
 publish = ".next"
 
 [build.environment]
-# Don't set NODE_ENV to production so npm installs devDependencies
 NODE_ENV = ""
+
+# Catch-all redirect for client-side routing
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
