@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { ShoppingCart } from 'lucide-react';
 import type { CartState } from '@/store/cart';
 import { useCartStore } from '@/store/cart';
@@ -8,7 +7,7 @@ import { useCatalog } from '@/hooks/useCatalog';
 import { calculateTotal, toRupees } from '@/lib/money';
 import { useCartModal } from '@/components/cart/CartModal';
 
-export function CartBar(): React.ReactNode {
+export function CartBar() {
   const cartItems = useCartStore((state: CartState) => state.items);
   const { data: catalog } = useCatalog();
   const { openCart } = useCartModal();
