@@ -4,9 +4,3 @@ publish = ".next"
 
 [build.environment]
 NODE_ENV = ""
-
-# Catch-all redirect for client-side routing
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
