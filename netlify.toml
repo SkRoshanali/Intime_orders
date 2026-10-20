@@ -1,18 +1,7 @@
 [build]
 command = "npm run build"
-publish = ".next/standalone"
-functions = "netlify/functions"
+publish = ".next"
 
-# Next.js server runtime
-[functions."api/**"]
-node_bundler = "esbuild"
-
-# Redirect all requests to Next.js (for client-side routing)
-[[redirects]]
-from = "/*"
-to = "/.netlify/functions/render"
-status = 200
-
-# Environment variables (optional - can also set in Netlify UI)
 [build.environment]
-NODE_ENV = "production"
+# Don't set NODE_ENV to production so npm installs devDependencies
+NODE_ENV = ""
